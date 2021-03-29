@@ -446,8 +446,115 @@ header{
         margin-top: 59px;
         margin-bottom: 10px;
 }
+.footer_flex{
+        display: flex;
+        /* flex-wrap: wrap; */
+        /* flex-direction:row; */
+        justify-content: space-between;
+        width: 1200px;
+        /* height: 100%; */
+        margin: 30px auto;
+        overflow-x: hidden;
+}
+.footer_flex>div>h5{
+      
+                font-size: 30px;
+                font-family: "Teko";
+                color: rgb(0, 0, 0);
+                text-transform: uppercase;
+                line-height: 1.2;
+                text-align: left;
+                letter-spacing: 4px;
+                font-family: "Teko_L";
+                font-weight: 400;
+                
+              
+}
 
+.footer_flex>div>hr{
+        
+        border: none;
+      
+                background-color: rgb(48, 40, 42);
+              
+                /* width: 270px; */
+                height: 4px;
+                z-index: 11;
+                margin-bottom: 20px;
+              
+              
+}
+.footer_flex>div+div{
+ margin-left: 30px;
+}
+.footer_flex_one{
+        flex: 1 1 400px;
+        flex-basis: 400px;
+        /* border: 1px solid #030; */
+        /* height: 90px; */
        
+}
+.footer_flex_twy{
+        flex: 2 2 500px;
+        /* border: 1px solid #030; */
+        /* height: 90px; */
+        flex-basis: 400px;
+}
+/* .footer_flex_twy>hr{
+        width: 565px;
+} */
+.footer_flex_three{
+        flex: 1 1 400px;
+        /* border: 1px solid #030; */
+        /* height: 90px; */
+        flex-basis: 400px;
+}
+footer{
+        margin-bottom: 499px;
+}
+.footer_list{
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* height: 900px; */
+        width: 300px;
+}
+.footer_list>li{
+        
+                font-size: 14px;
+                font-family: "Titillium_Web_L";
+                color: rgb(85, 85, 85);
+                line-height: 2.143;
+                text-align: left;
+               
+                /* width: 113px; */
+                /* height: 164px; */
+                z-index: 10;
+              
+              
+}
+.flex_footer{
+        display: flex;
+}
+#footer_kas{
+        margin: 0 auto;
+        width: 1200px;
+}
+.footer_footer{
+        
+                font-size: 13px;
+                font-family: "Titillium_Web_L";
+                font-weight: 300;
+                color: rgb(85, 85, 85);
+                line-height: 1.2;
+                text-align: left;
+                margin-top: 25px;
+                z-index: 6;
+              
+              
+}
+
 @font-face{
          font-family: "Teko_L";
          src: url(../font/Teko-Light.ttf);
