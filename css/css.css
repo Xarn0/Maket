@@ -1,0 +1,466 @@
+*{
+        margin: 0;
+        padding: 0;
+}
+.container{
+         display: flex;
+         flex-direction: column;
+         width: 100vw;
+         
+}
+header{
+         display: flex;
+         /* max-width:1080px ; */
+         /* border: 1px solid #932; */
+         flex-direction: column;
+         background: #352d2f;
+         /* justify-content: center; */
+         
+         
+}
+.header_div_nav{
+         position: relative;
+         height: 70px;
+         width: 100%;
+         border: 2px solid rgba(255, 255, 255, 0.192);
+         margin-bottom: 150px;
+}
+.header_nav{
+         margin: 0 auto;
+         position: relative;
+         /* padding-left: 70px; */
+         /* border: 2px solid rgba(255, 255, 255, 0.192); */
+}
+.header_nav>img{
+         position: absolute;
+         left: 0;
+}
+.header_nav__ul{
+         display: flex;
+         list-style: none;
+         justify-content: center;
+         flex-wrap: wrap;
+         /* max-width: 1080px; */
+}
+.header_nav__ul>li:first-child{
+       position: relative;
+       margin-right: 30px;
+       right: 170px;
+}
+.header_nav__ul>li:last-child{
+         
+}
+.header_nav__ul>li{
+         line-height: 50px;
+}
+.header_nav__ul>li+li:hover{
+         color: red;
+}
+.header_nav__ul>li+li+li{
+         margin-left: 20px;
+}
+.header_nav__ul>li{
+         color: #fff;
+         font-size: 16px;
+         font-weight: 400;
+         font-family: "Titillium_Web_R";
+}
+.header_twy__block{
+         display: flex;
+         justify-content: center;
+         /* width: 1080px; */
+         align-content: center;
+         flex-wrap: wrap;
+         margin: 0 auto;
+         flex-direction: column;
+}
+.header_twy__block>h3{
+         font-size: 80px;
+         font-family: "Teko_L";
+         text-transform: uppercase;
+         text-indent: 30px;
+         text-align: center;
+         font-weight: 300;
+         line-height:100px;
+         letter-spacing: 7px;
+         color: #fff;
+}
+.header_twy__block>button{
+         width: 200px;
+         /* opacity: 0.2;       */
+         margin: 0 auto;
+         padding: 5px;
+         font-family:"Teko_R" ;
+         font-weight: 400;
+         font-size: 20px;
+         color: #fff;
+         border: 2px solid rgba(255, 255, 255, 0.205);
+         outline: none;
+         background-color: inherit;
+         text-transform: uppercase;
+         letter-spacing: 2px;
+         
+}
+.header_twy__block>button::before{
+         content: url(../img/play.png);
+         position: relative;
+         top: 3px;
+         right: 10px;
+
+}
+.header_twy__block___cell{
+         display: flex;
+         justify-content: center;
+         text-transform: uppercase;
+         font-size: 18px;
+         font-family: "Teko_R";
+         font-weight: 400;
+         color: #fff;
+         text-align: center;
+         /* margin-top: 90px; */
+         height: 90px;
+         margin-bottom: 30px;
+         position: relative;
+         letter-spacing: 1.2px;
+}
+.header_twy__block___cell>p{
+         position: absolute;
+         bottom: 0;
+}
+.header_twy__block___cell>p::before{
+         content: url(../img/mouse.png);
+         position: absolute;
+         text-align: center;
+         top: -35px;
+         right: 38px;
+}
+.section_one{
+         font-family:"Teko_R" ;
+         font-weight: 400;
+         display: flex;
+         flex-wrap: wrap;
+         align-content: center;
+         flex-direction: column;
+         padding-bottom: 70px;
+}
+.section_one>h3{
+         font-size: 40px;
+         color: rgb(0, 0, 0);
+         letter-spacing: 4px;
+         text-transform: uppercase;
+         line-height: 1.2;
+         text-align: center;
+         margin-top: 50px;
+         font-family:"Teko_R" ;
+         font-weight: 400;
+}
+.section_one>button{
+         border: none;
+         background-color: rgb(246, 60, 60);
+         width: 230px;
+         height: 50px;
+         font-size: 20px;
+         letter-spacing: 4px;
+         margin: 0 auto;
+         text-align: center;
+         color: rgb(255, 255, 255);
+         text-transform: uppercase;
+         line-height: 1.2;
+         font-family: "Teko_R";
+         margin-top: 26px;
+         outline: none;
+}
+.section_twy{
+         display: flex;
+         flex-wrap: wrap;
+         flex-direction: column;
+}
+.section_twy__oneLvl{
+         display: flex;
+         flex-wrap: wrap;
+         flex: 1  1 100%;
+
+}
+.section_twy__oneLvl_one{
+        background-color: rgb(246, 60, 60);
+        flex: 1 1 200px;
+        position: relative;
+}
+.section_twy__oneLvl_twy{
+         display: flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         flex: 1 1 200px;
+} 
+.section_twy__oneLvl_twy_one{
+         flex: 1 1 300px;
+         background-color: rgb(53, 45, 47);
+         position: relative;
+} 
+.section_twy__oneLvl_twy_twy{
+         background-color: rgb(48, 40, 42);
+         flex: 1  1 300px;
+         position: relative;
+} 
+.content_section_twy{
+         position: absolute;
+         
+}
+.poss_twy{
+         bottom: 30px;
+         left: 70px;
+}
+.poss_one{
+      bottom: 150px;
+         left: 100px;   
+}
+.poss_one>h5{
+         font-size: 30px; 
+         color: rgba(255, 255, 255, 0.302);
+         text-transform: uppercase;
+         line-height: 1.2;
+         font-family: "Teko_R";
+         font-weight: 400;
+         margin-bottom: 20px;
+
+}
+.poss_one>h4{
+         margin-bottom: 20px;
+}
+       
+.content_section_twy>p{ 
+          text-align: left;
+         line-height: 1.333;
+         color: rgba(255, 255, 255, 0.702);
+         font-size: 18px;
+         font-family: "Titillium_Web_L";
+         font-weight: 300;
+                      
+}
+.content_section_twy>h4{
+         font-size: 60px;
+         color: rgb(255, 255, 255);
+         text-transform: uppercase;
+         line-height: 1.2;
+         text-align: left;
+         font-family: "Teko_R";
+         font-weight: 400;
+         letter-spacing: 5px;
+}
+.section_twy__twyLvl{
+
+         
+         line-height: 60px;
+         flex: 1 100%;
+         background-color: rgb(48, 40, 42);
+    
+              
+              
+                /* .BG {
+                 
+                  position: absolute;
+                  left: 0px;
+                  top: 2353px;
+                  width: 1920px;
+                  height: 80px;
+                  z-index: 78;
+                } */
+                
+} 
+.section_twy__twyLvl>div{
+         position: relative;
+         width: 200px;
+         margin: 0 auto;
+}
+.section_twy__twyLvl>div>h5{
+         font-size: 20px;
+         font-family: "Teko_R";
+         font-weight: 400;
+         color: rgb(255, 255, 255);
+         text-align: center;
+         letter-spacing: 1.3px;
+         position: relative;
+         text-transform: uppercase;
+         text-indent: 5px;
+}
+.section_twy__twyLvl>div>h5::before{
+         content: "";
+         background-color: rgb(255, 255, 255);
+         width: 180px;
+         height: 4px;
+         position: absolute;
+         text-align: center;
+         bottom: 14px;
+         left:19px;
+}
+.section-there{
+         max-width: 1180px;
+         display: flex;
+         margin: 0 auto;
+         flex-direction: column;
+         flex-wrap: wrap;
+}
+.section-there__one{
+         display: flex;
+         flex-wrap: wrap;
+         margin-bottom: 80px;
+         /* justify-content: center; */
+         /* align-content: center; */
+}
+.section-there__one_1{
+         flex: 1 1 500px;
+}
+.section-there__one_1_h5{
+ font-size: 30px;
+ text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  text-align: left;
+ line-height: 1;
+ font-family: "Teko_R";
+ font-weight: 400;
+ letter-spacing: 1.7px;
+}
+.section-there__one_1_p{
+         font-size: 16px;
+         color: rgb(85, 85, 85);
+         line-height: 1.375;
+         text-align: left;
+         font-family: "Titillium_Web_L";
+         font-weight: 300;
+
+
+
+}
+.section-there__one_1__img{
+         margin-top: 50px;
+         margin-bottom: 17px;
+}
+.section-there__one_2__img{
+         margin-top: 42px;
+         margin-bottom: 19px;
+} 
+.section-there__there{
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-between;
+         margin-top: 50px;
+}  
+.black_div{
+         width: 270px;
+         height: 195px;
+         background-color: rgb(48, 40, 42);
+         color: #fff;
+         /* text-align: center; */
+         display: flex;
+         justify-content: center;
+         flex-wrap: wrap;
+         align-content: center;
+         /* position: relative; */
+         
+                
+}     
+.black_div>div>p{
+       font-size: 30px; 
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.2;
+        font-weight: 300;
+        font-family: "Teko_R";
+        
+}
+.black_div>div{
+         text-align: center;
+         line-height: 30px;
+}
+.section_force{
+ background-color: rgb(48, 40, 42); 
+  height: 602px;
+  width: 100%;
+  margin-top: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+} 
+.section_force>div{
+         width: 570px;
+         height: 290px;
+         margin: 0 auto;
+         z-index: 6;
+         background-color: rgb(246, 60, 60);
+         
+      
+}
+.section_force__text{
+    
+                font-size: 18px;
+                font-family: "Teko_R";
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                line-height: 0.889;
+                text-align: center;
+              font-weight: 400;
+                z-index: 31;
+              
+              
+}
+.section_force>div>h5{
+    
+                font-size: 30px;
+                font-family: "Teko_L";
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                line-height: 1.2;
+                text-align: center;
+                letter-spacing: 4px;
+               font-weight: 300;
+               margin-top: 7px;
+                
+              
+              
+}
+.section_force>div>div{
+                text-align: center;
+                font-size: 30px;
+                font-weight: 300;
+                color: rgb(255, 255, 255);
+                line-height: 1.2;
+               margin: 0 auto;
+               width: 200px;
+               height: 70px;
+               word-spacing: 10px;
+               letter-spacing: 2px;
+                z-index: 30;
+                font-family: "Teko_L";
+                
+                 margin-top: 13px;
+
+              
+              
+}
+
+.section_force>div>p{
+        text-align: center;
+}
+.section_force>div>p:first-child{
+        margin-top: 59px;
+        margin-bottom: 10px;
+}
+
+       
+@font-face{
+         font-family: "Teko_L";
+         src: url(../font/Teko-Light.ttf);
+}
+@font-face{
+         font-family: "Teko_R";
+         src: url(../font/Teko-Regular.ttf);
+}
+@font-face{
+         font-family: "Titillium_Web_R";
+         src: url(../font/TitilliumWeb-Regular.ttf);
+}
+@font-face{
+         font-family: "Titillium_Web_L";
+         src: url(../font/TitilliumWeb-Light.ttf);
+}
