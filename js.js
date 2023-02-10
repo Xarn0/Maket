@@ -33,13 +33,23 @@
 //   alert( i ); // простое число
 // }
 
-function makeUser() {
-  return {
-    name: "Джон",
-    ref: this.name
-  };
-};
 
-let user = makeUser();
 
-console.log( user.ref.name() );
+
+let burger = document.querySelector('.burger');
+let burgerContent = document.querySelector('.burger__content');
+let headerNav = document.querySelectorAll('.header__item');
+headerNav.forEach(item=>{
+  burgerContent.innerHTML += `<li>${item.innerHTML}</li>` 
+})
+ console.log(burgerContent.style.length)
+burger.addEventListener('click',()=>{
+ 
+    if(burgerContent.style.display == 'block'){
+      burgerContent.style.display = 'none';
+      
+    }else{
+     
+      burgerContent.style.display = 'block'
+    }
+})
