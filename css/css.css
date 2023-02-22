@@ -660,7 +660,9 @@ footer{
         margin-right: 50px;
         
 }
-
+.header_twy__block{
+        width: 600px;
+}
 @font-face{
          font-family: "Teko_L";
          src: url(../font/Teko-Light.ttf);
@@ -681,7 +683,7 @@ footer{
         footer{
                 width: 100%;
         }
-       
+      
         .footer_flex{
                  width: 800px !important;
         }
@@ -746,6 +748,9 @@ footer{
         #footer_kas {
                 width: 100%;
         }
+        .header_twy__block{
+                width: auto;
+        }
         .header_twy__block>h3{
                 font-size: 60px !important;
         }
@@ -753,7 +758,8 @@ footer{
                 flex-basis: 100% !important;
         }
         .header_nav{
-                width: 300px;
+                width: auto;
+                margin: 0 30px;     
         } 
         .section-there__one_1{
                 width: 400px;
@@ -774,6 +780,10 @@ footer{
         }
         .section_one{
                 padding: 20px;
+        }
+        .header_twy__block>h3{
+                font-size: 30px !important;
+                line-height: 30px;
         }
         .content_section_twy{
                 margin: 0 auto;
